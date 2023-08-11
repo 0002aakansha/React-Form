@@ -1,0 +1,48 @@
+.box {
+    background-color: #fff;
+    padding: 2rem 2rem;
+    width: 60%;
+    border-radius: 10px;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.inputBox input,
+.inputBox select {
+    border: 1px solid #cfcfcf;
+    outline: none;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.inputBox label {
+    font-size: 10.5pt;
+    width: 50%;
+    color: #302f2f;
+}
+
+.btnBox{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0 1rem;
+}
+
+.btn{
+    background: purple;
+    border: none;
+    color: #ccc;
+    padding: .6rem 1.2rem;
+    border-radius: 20px;
+    width: 25%;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.btn:active{
+    transform: scale(.9);
+}

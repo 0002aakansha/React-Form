@@ -1,13 +1,51 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Open+Sans:wght@300;400&family=Playfair+Display:wght@500&family=Poppins&display=swap');
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main--div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  align-content: space-between;
+  background-color: #2619971c;
+}
+
+.error {
+  background-color: tomato;
+}
+
+.success {
+  background-color: green;
+}
+
+.error,
+.success {
+  padding: 1rem 1rem;
+  color: #ececec;
+  border-radius: 5px;
+  font-size: 15pt;
+  position: relative;
+}
+
+.notify {
+  width: 50%;
+  margin: 1rem;
+}
+
+.heading{
+  text-align: center;
+  margin: 0 0 2rem 0;
+  font-family: 'Playfair Display', serif;
+  font-weight: 500;
+  color: #202122;
 }
